@@ -1,0 +1,38 @@
+@font-face {
+  font-display: swap; 
+  font-family: 'Tenor Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/tenor-sans-v20-latin-regular.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v48-latin-regular.woff2') format('woff2');
+}
+
+
+.containers{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.hero{
+  background: linear-gradient(95.31deg, #672870 20%, #4FE0FF 100%);
+}
+
+
+.fontt{
+  font-family: "Tenor Sans";
+}
+
+@media(max-width:1000px){
+  .containers{
+    max-width: 1000px;
+  }
+}
+
+
+
